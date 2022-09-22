@@ -1,0 +1,39 @@
+.nav-link {
+    font-size: large;
+}
+
+.pagespan {
+    width: 100vw;
+    margin: 0;
+    /* border: red 2px solid; */
+    min-height: 100vh;
+    background-color: rgb(169, 119, 107);
+    z-index: 0;
+}
+
+.heading {
+    font-size: 6vw;
+    font-weight: 900;
+    color: rgb(169, 119, 107);
+}
+
+.bump {
+    padding-top: 0;
+    /* transform: translateY(-1em); */
+    z-index: -10;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.container {
+    z-index: -9;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('images/pexels-photo-1300530.jpeg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    z-index: -2;
+    position: fixed;
+}

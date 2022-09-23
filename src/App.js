@@ -12,10 +12,10 @@ function App() {
 			<Navbar></Navbar>
 			<Routes>
 				{/* <Route path='/about' element={<About />}></Route> */}
-				<Route exact path='/' element={<Home />}></Route>
 				<Route exact path='/home' element={<Home />}></Route>
 				<Route exact path='/gallery' element={<Gallery/>}></Route>
 				<Route exact path='/about' element={<About />}></Route>
+				<Route exact path='/' element={<Home />}></Route>
 			</Routes>
 			<Footer></Footer>
 		</div>
